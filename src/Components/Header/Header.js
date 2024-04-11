@@ -1,7 +1,6 @@
 import * as React from 'react';
 import './index.css'
 import TemporaryDrawer from './drawer'
-// import { MdPerson4 } from "react-icons/md";
 export const Header = () => {
     
     return (
