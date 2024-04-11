@@ -1,0 +1,136 @@
+.home-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #dee0e0;
+}
+
+.sections-container {
+    background-color: rgb(250, 248, 244); 
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    
+
+}
+.list-container {
+    width: 100%;
+    justify-content: space-evenly;
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    align-items: center;
+}
+
+.list-items {
+    height: 23px;
+    padding: 6px;
+    font-size: 14px;
+    color: #b8b8b8;
+    font-weight: 500;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid #f6f2f2;
+
+}
+.add-employee {
+    color: orangered;
+    background-color: rgb(245, 204, 127);
+}
+.add-card {
+    border-radius: 10px;
+    margin-left: 20%;
+    height: 70vh;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border: 1px solid #fbfafa;
+}
+.person {
+    height: 95px;
+    width: 95px;
+    margin-left: 4px;
+    border-radius: 100px;
+}
+.bottom-container {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+.person-container {
+    border: 1px solid #cccaca;
+    height: 105px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 105px;
+    border-radius: 100px;
+}
+.add-icon {
+    background-color: rgb(240, 122, 11);
+    height: 20px;
+    display: flex;
+    color: #fff;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    border-radius: 10px;
+}
+.names {
+    height: 35px;
+    width: 200px;
+    border: 1px solid #cccaca;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 5px;
+}
+.employee-id {
+    height: 35px;
+    width: 300px;
+    margin-top: 5px;
+    border: 1px solid #cccaca;
+    border-radius: 5px;
+}
+.id-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.heading  {
+    font-weight: 600;
+    color: #b8b8b8;
+    font-size: 18px;
+}
+.required {
+    color: #b8b8b8;
+    font-size: 12px;
+    font-weight: 500;
+}
+.label-text {
+    color: #969595;
+    font-size: 15px;
+    font-weight: 400;
+}
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.save-button {
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: rgb(104, 170, 6);
+    border: 0px;
+    color: #fff;
+    margin: 5px;
+}
+.cancle-button {
+    background-color: transparent;
+    border: 1px solid rgb(121, 198, 6);
+    color: greenyellow;
+}

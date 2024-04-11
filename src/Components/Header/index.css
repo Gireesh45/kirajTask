@@ -1,0 +1,76 @@
+.header-container {
+    background-color: rgb(250, 109, 21);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo {
+    height: 20px;
+    width: 20px;
+}
+.list-item {
+    margin: 0px;
+    /* background-color: rgb(234, 236, 236); */
+}
+.typo-container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+.typo-container-2 {
+    width: 70%;
+}
+.search-text {
+    margin-left: 20px;
+}
+.box-container {
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+}
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px ;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    justify-content: space-around;
+    width: 14%;
+    border-radius: 20px;
+    margin: 10px;
+    height: 38px;
+}
+.menu {
+    font-size: 30px;
+    color: #fff;
+    margin: 10px;
+}
+.user-photo {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+.header-text {
+    color: #fff;
+}
+.hrm-text {
+    color: green;
+} 
+.user {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 60px;
+    margin: 5px;
+    border: 1px solid #fff;
+}
